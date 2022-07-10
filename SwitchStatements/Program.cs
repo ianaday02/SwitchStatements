@@ -10,21 +10,21 @@ namespace SwitchStatements
 
             var favSubject = Console.ReadLine();
 
-            switch (favSubject)
+            switch (favSubject.ToLower())
             {
-                case "Math":
+                case "math":
                     Console.WriteLine("Math is a good one! I like it");
                     break;
-                case "Science":
+                case "science":
                     Console.WriteLine("That's nice, I have always found Science a bit challenging though");
                     break;
-                case "English":
+                case "english":
                     Console.WriteLine("English is definitely an important one to learn");
                     break;
-                case "History":
+                case "history":
                     Console.WriteLine("Cool! History is challenging to me");
                     break;
-                case "Computer science":
+                case "computer science":
                     Console.WriteLine("My type of person! I love Computer Science");
                     break;
                 default:
